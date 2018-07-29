@@ -1,7 +1,7 @@
 //Declarative//
 pipeline {
         agent any
-        options { 
+        options {     // to skip default scm checkout in Declarative mode//
         skipDefaultCheckout() 
         }
         stages {
